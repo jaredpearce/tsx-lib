@@ -1,0 +1,14 @@
+html {
+  --btn-color: #fff;
+  --btn-bg-color: #00a3e0;
+  --btn-border-color: #00a3e0;
+}
+
+.btn {
+  background-color: var(--btn-bg-color);
+  border: 1px solid var(--btn-border-color);
+  border-radius: 2px;
+  color: var(--btn-color);
+  padding: 0.25em .375em;
+  text-align: center;
+}
